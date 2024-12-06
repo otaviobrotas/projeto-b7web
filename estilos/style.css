@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+*{font-family: Arial, Helvetica, sans-serif; margin: 0px; padding: 0px;}
+
+
+body, html {background-color:#2F3136;}
+
+nav{
+background-color: #202225;
+height: 100vh; width: 7vw; 
+position: fixed;
+display: flex;
+}
+
+nav > ul > li
+{list-style-type: none; 
+padding: 3px; 
+padding-bottom: 40px;
+font-size: 2vh;
+font-size: 1.2vw;}
+
+nav > ul > li >#casa
+{color: white;
+font-size: 4vw;}
+
+nav#cima
+{
+position: absolute;
+right: 19%;
+top: 7%;
+width: 70vw;
+height: 30px;
+background-color: #2F3136;
+display: inline-block;
+}
+
+#cima li
+{display: inline-block;
+    padding: 40px; 
+border: 1px solid black;
+border-radius: 15px;
+box-shadow: 0 -3px 0px rgba(242, 113, 0, 0.373);
+justify-content: center;
+text-align: center;
+align-items: center;
+
+}
+
+#cima .container{transform: scale(2);
+top: 50%;
+position: absolute;}
+
+
+
+
+
+article
+{margin-left: 7vw;
+background-color: #202225;
+
+position: absolute;
+top: 50%;
+left: 40%;
+transform: translate(-50%, -50%);
+width: 73vw;
+height: 70vh;
+display: block;
+border-radius: 20px;
+}
+article h2 
+{
+color: white;
+padding: 10px;
+    
+    
+    }
+section img
+{position: absolute;    
+    top: 50%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+width: 68vw;
+height: 57vh;}
